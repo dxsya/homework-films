@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+.container {
+    max-width: 1050px;
+    background-color: white;
+    margin: 120px auto 30px auto;
+}
+
+nav {
+    box-shadow: 0 4px 7px 0 rgb(0 0 0 / 45%);
+    background-color: rgba(0, 88, 124, 0.9);
+    width: 100vmax;
+    margin: 0;
+}
+
+.navbar-ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+    width: 220px;
+}
+
+.imax {
+    height: 40px;
+    width: 110px;
+}
+
+.dolby {
+    height: 40px;
+    width: 110px;
+}
+
+.glyphicon-film:before {
+    content: "\E009";
+}
+
+.glyphicon-facetime-video:before {
+    content: "\E059";
+}
+.glyphicon-bullhorn:before {
+    content: "\E122";
+}
+
+.film-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.film-card {
+    margin: 15px;
+    width: 200px;
+    background-color: #02558b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.film-card img {
+    width: 200px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
